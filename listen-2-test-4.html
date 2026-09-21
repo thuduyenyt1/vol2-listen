@@ -183,7 +183,7 @@
             display: flex;
             gap: 24px;
             width: 100%;
-            //animation: marqueeSlide 14s linear infinite;
+            /* animation: marqueeSlide 14s linear infinite; */
             align-items: center;
             padding-left: 4px;
         }
@@ -335,11 +335,11 @@
         }
 
         .main-container {
-            margin-top: 90px;
+            margin-top: 135px;
             display: flex;
             flex-direction: column;
             background: #ffffff;
-            min-height: calc(100vh - 90px);
+            min-height: calc(100vh - 135px);
         }
 
         .panels-container {
@@ -2162,14 +2162,13 @@
                     <div class="ad-marquee">
                         <div class="ad-loop">
                             <span class="ad-headline">Master every IELTS tip and strategy in intensive sessions and full EXAM MATERIALS!</span>
-                            
+      			</div>
                     </div>
-                </div>
+                </div> <!-- Đã thêm thẻ đóng cho .ad-copy -->
             </a>
             <button class="ad-close" type="button" aria-label="Close ad" title="Close" onclick="window.open('https://www.facebook.com/englishresourcehub','_blank','noopener')">×</button>
         </div>
-    </div>
-
+    </div> <!-- Đã thêm thẻ đóng cho .header -->
     <div class="audio-bar">
         <div class="audio-controls">
             <button id="audio-play-pause" type="button" aria-label="Play or pause audio">
